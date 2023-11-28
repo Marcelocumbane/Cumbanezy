@@ -429,6 +429,14 @@ a:hover {
   color: #fff;
   border-color: #cde1f8;
 }
+.portfolio-image {
+  width: 100%; /* Set the width to 100% to make sure it spans the entire container */
+  height: 200px; /* Set a fixed height (adjust as needed) */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+
+
 
 .button-big {
   padding: 0.9rem 2.3rem;
